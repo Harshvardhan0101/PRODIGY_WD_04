@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(62deg, #cae2f9 0%, #e2d4f1 33%, #f9e6e6 66%, #ffffff 100%);
+}
+.navbar1 p{
+    padding:20px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.5rem;
+}
+.navbar2{
+    height: 50px;
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar2 a:hover{
+  color: blue;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: black;
+}
+.head{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.aboutMe{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.HiHeading{
+    margin-bottom: 10px;
+}
+.helloIcon{
+    height: 50px;
+    width: 50px;
+    font-size: 1rem;
+    margin-top: 50px;
+}
+.aboutMeText{
+    padding: 20px;
+    text-align: center;
+}
+.aboutMeText p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.iconContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 50%;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.icons a{
+    text-decoration: none;
+}
+.contactMe{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contactMe a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    text-decoration: none;
+}
+.contactMe a:hover{
+    font-weight: 600;
+}
+.aboutMeImage img{
+    padding: 1px;
+    height: 30rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 25px rgb(197, 170, 227),1px 10px 55px;
+}
+.whatIdo{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.whatIdoimg{
+    padding: 20px;
+    height: 300px;
+    border-radius: 30%;
+}
+.whatIdoText{
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+}
+.skillIcons{
+    margin: 10px;
+    font-size: 2rem;
+}
+.ReachOut{
+    text-align: center;
+}
+.ReachOut p{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.ReachOut span{
+    font-weight: 600;
+}
+.icons{
+    margin-top: 100px;
+    gap: 1.7rem;
+}
+.icons2 i{
+   line-height: 2;
+   margin-bottom: 10px;
+}
+.icons2 a{
+    font-size: 1.5rem; 
+}
+.copyrigth{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .navBar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar1 p {
+      padding: 10px;
+    }
+    .navbar2 {
+      width: 100%;
+      padding: 10px;
+    }
+    .aboutMe {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+    .aboutMeImage img {
+      height: 200px;
+    }
+    .whatIdo {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+    .whatIdoimg {
+        height: 200px;
+    }
+    .ReachOut {
+      padding: 20px;
+    }
+  }
+  
+  /* Tablets (min-width: 769px) and (max-width: 1024px) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .navBar {
+      flex-direction: row;
+    }
+    .aboutMe {
+      flex-direction: row;
+      height: auto;
+      padding: 30px;
+    }
+    .whatIdo {
+      flex-direction: row;
+      height: auto;
+      padding: 30px;
+    }
+  }
+  
